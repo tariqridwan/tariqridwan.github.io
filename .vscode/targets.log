@@ -1,0 +1,421 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Dec 28 17:00:29 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = plasma
+# default
+.SHELLFLAGS := -c
+# environment
+SETVARS_COMPLETED = 1
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VT_ROOT = /opt/intel/oneapi/itac/2021.5.0
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VTUNE_PROFILER_2022_DIR = /opt/intel/oneapi/vtune/2022.0.0
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/tariq/.gtkrc:/home/tariq/.config/gtkrc
+# environment
+ACL_BOARD_VENDOR_PATH = /opt/Intel/OpenCLFPGA/oneAPI/Boards
+# environment
+FPGA_VARS_DIR = /opt/intel/oneapi/compiler/2022.0.2/linux/lib/oclfpga
+# environment
+CMPLR_ROOT = /opt/intel/oneapi/compiler/2022.0.2
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/.Xauthority
+# environment
+CCL_CONFIGURATION = cpu_gpu_dpcpp
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/tariq/GIT/tariqridwan.github.io
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/116
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+INTEL_LICENSE_FILE = /opt/intel/licenses:/home/tariq/intel/licenses
+# environment
+_ = /snap/code/116/usr/share/code/code
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-plasma:/etc/xdg
+# environment
+I_MPI_F90 = ifort
+# environment
+SNAP_ARCH = amd64
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# environment
+APM = /opt/intel/oneapi/advisor/2022.0.0/perfmodels
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+TBBROOT = /opt/intel/oneapi/tbb/2021.5.1/env/..
+# environment
+MANDATORY_PATH = /usr/share/gconf/plasma.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+XCURSOR_SIZE = 48
+# environment
+QT_SCREEN_SCALE_FACTORS = eDP-1=1;HDMI-1=1;DP-1=1;DP-2=1;
+# environment
+INFOPATH = /opt/intel/oneapi/debugger/2021.5.0/gdb/intel64/lib:/usr/local/texlive/2020/texmf-dist/doc/info:/usr/local/texlive/2020/texmf-dist/doc/info:
+# environment
+CCL_ROOT = /opt/intel/oneapi/ccl/2021.5.1
+# environment
+FI_PROVIDER_PATH = /opt/intel/oneapi/mpi/2021.5.1//libfabric/lib/prov:/usr/lib64/libfabric
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = es_ES.UTF-8
+# environment
+VT_SLIB_DIR = /opt/intel/oneapi/itac/2021.5.0/slib
+# environment
+VSCODE_CWD = /home/tariq
+# environment
+OCL_ICD_FILENAMES = libintelocl_emu.so:libalteracl.so:/opt/intel/oneapi/compiler/2022.0.2/linux/lib/x64/libintelocl.so
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/116/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/tariq/.local/bin:/home/tariq/bin:/home/tariq/alya/build/bin:/home/tariq/alya/Utils/user:/opt/intel/oneapi/vtune/2022.0.0/bin64:/opt/intel/oneapi/mpi/2021.5.1//libfabric/bin:/opt/intel/oneapi/mpi/2021.5.1//bin:/opt/intel/oneapi/mkl/2022.0.2/bin/intel64:/opt/intel/oneapi/itac/2021.5.0/bin:/opt/intel/oneapi/inspector/2022.0.0/bin64:/opt/intel/oneapi/dev-utilities/2021.5.2/bin:/opt/intel/oneapi/debugger/2021.5.0/gdb/intel64/bin:/opt/intel/oneapi/compiler/2022.0.2/linux/lib/oclfpga/bin:/opt/intel/oneapi/compiler/2022.0.2/linux/bin/intel64:/opt/intel/oneapi/compiler/2022.0.2/linux/bin:/opt/intel/oneapi/advisor/2022.0.0/bin64:/usr/local/texlive/2020/bin/x86_64-linux:/home/tariq/.local/bin:/home/tariq/bin:/usr/local/texlive/2020/bin/x86_64-linux:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/paraview-5.10.0/bin:/opt/openmpi/openmpi-4.0.5/bin:/opt/python/python-3.10.2/bin:/opt/cmake/cmake-3.22.2
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+XCURSOR_THEME = WhiteSur-cursors
+# environment
+SESSION_MANAGER = local/tariq-pc:@/tmp/.ICE-unix/1730,unix/tariq-pc:/tmp/.ICE-unix/1730
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/tariq/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+LIBRARY_PATH = /opt/intel/oneapi/tbb/2021.5.1/env/../lib/intel64/gcc4.8:/opt/intel/oneapi/mpi/2021.5.1//libfabric/lib:/opt/intel/oneapi/mpi/2021.5.1//lib/release:/opt/intel/oneapi/mpi/2021.5.1//lib:/opt/intel/oneapi/mkl/2022.0.2/lib/intel64:/opt/intel/oneapi/ipp/2021.5.2/lib/intel64:/opt/intel/oneapi/compiler/2022.0.2/linux/compiler/lib/intel64_lin:/opt/intel/oneapi/compiler/2022.0.2/linux/lib:/opt/intel/oneapi/ccl/2021.5.1/lib/cpu_gpu_dpcpp
+# environment
+SNAP = /snap/code/116
+# environment
+INTEL_PYTHONHOME = /opt/intel/oneapi/debugger/2021.5.0/dep
+# environment
+CPATH = /opt/intel/oneapi/tbb/2021.5.1/env/../include:/opt/intel/oneapi/mpi/2021.5.1//include:/opt/intel/oneapi/mkl/2022.0.2/include:/opt/intel/oneapi/ipp/2021.5.2/include:/opt/intel/oneapi/dev-utilities/2021.5.2/include:/opt/intel/oneapi/ccl/2021.5.1/include/cpu_gpu_dpcpp
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_VERSION = e8a3071e
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/tariq/.gtkrc-2.0:/home/tariq/.config/gtkrc-2.0
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/116/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+CMAKE_PREFIX_PATH = /opt/intel/oneapi/tbb/2021.5.1/env/..:/opt/intel/oneapi/compiler/2022.0.2/linux/IntelDPCPP
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = KDE
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-cfd4omVHCmSw/agent.1583
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+I_MPI_CC = icc
+# environment
+GTK_IM_MODULE = ibus
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/tariq/GIT/tariqridwan.github.io
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.LOADED := 
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 1654
+# environment
+PKG_CONFIG_PATH = /opt/intel/oneapi/vtune/2022.0.0/include/pkgconfig/lib64:/opt/intel/oneapi/tbb/2021.5.1/env/../lib/pkgconfig:/opt/intel/oneapi/mpi/2021.5.1/lib/pkgconfig:/opt/intel/oneapi/mkl/2022.0.2/lib/pkgconfig:/opt/intel/oneapi/inspector/2022.0.0/include/pkgconfig/lib64:/opt/intel/oneapi/compiler/2022.0.2/lib/pkgconfig:/opt/intel/oneapi/ccl/2021.5.1/lib/pkgconfig:/opt/intel/oneapi/advisor/2022.0.0/include/pkgconfig/lib64:
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+MANPATH = /opt/intel/oneapi/mpi/2021.5.1/man:/opt/intel/oneapi/itac/2021.5.0/man:/opt/intel/oneapi/debugger/2021.5.0/documentation/man:/opt/intel/oneapi/compiler/2022.0.2/documentation/en/man/common:/usr/local/texlive/2020/texmf-dist/doc/man:/usr/local/texlive/2020/texmf-dist/doc/man:::/opt/openmpi/openmpi-4.0.5/share/man:/opt/python/python-3.10.2/share/man
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/tariq
+# environment
+VT_LIB_DIR = /opt/intel/oneapi/itac/2021.5.0/lib
+# environment
+LD_LIBRARY_PATH = /opt/intel/oneapi/tbb/2021.5.1/env/../lib/intel64/gcc4.8:/opt/intel/oneapi/mpi/2021.5.1//libfabric/lib:/opt/intel/oneapi/mpi/2021.5.1//lib/release:/opt/intel/oneapi/mpi/2021.5.1//lib:/opt/intel/oneapi/mkl/2022.0.2/lib/intel64:/opt/intel/oneapi/itac/2021.5.0/slib:/opt/intel/oneapi/ipp/2021.5.2/lib/intel64:/opt/intel/oneapi/debugger/2021.5.0/gdb/intel64/lib:/opt/intel/oneapi/debugger/2021.5.0/libipt/intel64/lib:/opt/intel/oneapi/debugger/2021.5.0/dep/lib:/opt/intel/oneapi/compiler/2022.0.2/linux/lib:/opt/intel/oneapi/compiler/2022.0.2/linux/lib/x64:/opt/intel/oneapi/compiler/2022.0.2/linux/lib/oclfpga/host/linux64/lib:/opt/intel/oneapi/compiler/2022.0.2/linux/compiler/lib/intel64_lin:/opt/intel/oneapi/ccl/2021.5.1/lib/cpu_gpu_dpcpp:/opt/openmpi/openmpi-4.0.5/lib:/opt/python/python-3.10.2/lib
+# environment
+VT_ADD_LIBS = -ldwarf -lelf -lvtunwind -lm -lpthread
+# environment
+VT_MPI = impi4
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/tariq/.config/Code/CachedData/e8a3071ea4344d9d48ef8a4df2c097372b0c5161
+# environment
+IPP_TARGET_ARCH = intel64
+# environment
+LOGNAME = tariq
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = 8bp2UsRM-b48mlEbecjtq_5DSObN5-_LRg5py7yCHBekhuo08Dc1
+# automatic
++F = $(notdir $+)
+# environment
+KDE_FULL_SESSION = true
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+SNAP_USER_COMMON = /home/tariq/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+MAKE_VERSION := 4.2.1
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 1
+# environment
+LC_TIME = en_US.UTF-8
+# environment
+SNAP_REAL_HOME = /home/tariq
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+FPGA_VARS_ARGS = 
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/tariq/snap/code/116
+# environment
+SHLVL = 0
+# environment
+XDG_SESSION_ID = 3
+# environment
+USER = tariq
+# environment
+SNAP_REVISION = 116
+# environment
+MKLROOT = /opt/intel/oneapi/mkl/2022.0.2
+# environment
+LC_MONETARY = C.UTF-8
+# makefile
+.DEFAULT_GOAL := 
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+CLASSPATH = /opt/intel/oneapi/mpi/2021.5.1//lib/mpi.jar
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = es_ES.UTF-8
+# environment
+I_MPI_CXX = icpc
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-c929f1a7-1.74.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+PYTHONPATH = /opt/intel/oneapi/advisor/2022.0.0/pythonapi
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+INSPECTOR_2022_DIR = /opt/intel/oneapi/inspector/2022.0.0
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = es_ES.UTF-8
+# environment
+I_MPI_ROOT = /opt/intel/oneapi/mpi/2021.5.1
+# environment
+MAKELEVEL := 0
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+IPPROOT = /opt/intel/oneapi/ipp/2021.5.2
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+# environment
+DEFAULTS_PATH = /usr/share/gconf/plasma.default.path
+# environment
+ADVISOR_2022_DIR = /opt/intel/oneapi/advisor/2022.0.0
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = 8bp2UsRM-b48mlEbecjtq_5DSObN5-_LRg5py7yCHBekhuo08Dc1
+# environment
+LC_NUMERIC = en_US.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+GDB_INFO = /opt/intel/oneapi/debugger/2021.5.0/documentation/info/
+# environment
+LC_MEASUREMENT = C.UTF-8
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+NLSPATH = /opt/intel/oneapi/mkl/2022.0.2/lib/intel64/locale/%l_%t/%N:/opt/intel/oneapi/compiler/2022.0.2/linux/compiler/lib/intel64_lin/locale/%l_%t/%N
+# environment
+INTELFPGAOCLSDKROOT = /opt/intel/oneapi/compiler/2022.0.2/linux/lib/oclfpga
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = es_ES.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = es_ES.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 18285
+# environment
+ONEAPI_ROOT = /opt/intel/oneapi
+# environment
+KDE_SESSION_UID = 1000
+# variable set hash-table stats:
+# Load=168/1024=16%, Rehash=0, Collisions=22/190=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 6952732): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 16 / storage = 139 B / avg = 8 B
+# current buf: size = 8162 B / used = 139 B / count = 16 / avg = 8 B
+
+# strcache performance: lookups = 19 / hit rate = 15%
+# hash-table stats:
+# Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
+# Finished Make data base on Wed Dec 28 17:00:30 2022
+
+ 
