@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Feb 16 14:15:30 2023
+# Make data base, printed on Thu Feb 16 14:56:37 2023
 
 # Variables
 
@@ -33,8 +33,6 @@ VTUNE_PROFILER_2022_DIR = /opt/intel/oneapi/vtune/2022.0.0
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-GTK_RC_FILES = /etc/gtk/gtkrc:/home/tariq/.gtkrc:/home/tariq/.config/gtkrc
-# environment
 ACL_BOARD_VENDOR_PATH = /opt/Intel/OpenCLFPGA/oneAPI/Boards
 # environment
 FPGA_VARS_DIR = /opt/intel/oneapi/compiler/2022.0.2/linux/lib/oclfpga
@@ -43,7 +41,7 @@ CMPLR_ROOT = /opt/intel/oneapi/compiler/2022.0.2
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-XAUTHORITY = /run/user/1000/.Xauthority
+XAUTHORITY = /home/tariq/.Xauthority
 # environment
 CCL_CONFIGURATION = cpu_gpu_dpcpp
 # environment
@@ -107,7 +105,7 @@ OCL_ICD_FILENAMES = libintelocl_emu.so:libalteracl.so:/opt/intel/oneapi/compiler
 # environment
 PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
 # environment
-XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session2
 # environment
 GSETTINGS_SCHEMA_DIR = /snap/code/119/usr/share/glib-2.0/schemas
 # default
@@ -119,7 +117,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 XCURSOR_THEME = WhiteSur-cursors
 # environment
-SESSION_MANAGER = local/tariq-pc:@/tmp/.ICE-unix/1849,unix/tariq-pc:/tmp/.ICE-unix/1849
+SESSION_MANAGER = local/tariq-pc:@/tmp/.ICE-unix/1780,unix/tariq-pc:/tmp/.ICE-unix/1780
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -139,8 +137,6 @@ SNAP_VERSION = 441438ab
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/tariq/.gtkrc-2.0:/home/tariq/.config/gtkrc-2.0
-# environment
 GDK_PIXBUF_MODULEDIR = /snap/code/119/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
@@ -149,7 +145,7 @@ CMAKE_PREFIX_PATH = /opt/intel/oneapi/tbb/2021.5.1/env/..:/opt/intel/oneapi/comp
 # environment
 XDG_SESSION_DESKTOP = KDE
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-mYh6rkpkJy68/agent.1700
+SSH_AUTH_SOCK = /tmp/ssh-iNlmxMSYLvkD/agent.1630
 # automatic
 %F = $(notdir $%)
 # environment
@@ -167,7 +163,7 @@ KDE_SESSION_VERSION = 5
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 1778
+SSH_AGENT_PID = 1706
 # environment
 PKG_CONFIG_PATH = /opt/intel/oneapi/vtune/2022.0.0/include/pkgconfig/lib64:/opt/intel/oneapi/tbb/2021.5.1/env/../lib/pkgconfig:/opt/intel/oneapi/mpi/2021.5.1/lib/pkgconfig:/opt/intel/oneapi/mkl/2022.0.2/lib/pkgconfig:/opt/intel/oneapi/inspector/2022.0.0/include/pkgconfig/lib64:/opt/intel/oneapi/compiler/2022.0.2/lib/pkgconfig:/opt/intel/oneapi/ccl/2021.5.1/lib/pkgconfig:/opt/intel/oneapi/advisor/2022.0.0/include/pkgconfig/lib64:
 # environment
@@ -271,9 +267,6 @@ BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
 PYTHONPATH = /opt/intel/oneapi/advisor/2022.0.0/pythonapi
 # makefile
- 
-make: *** No rule to make target 'all'.  Stop.
-
 MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
@@ -284,11 +277,16 @@ INSPECTOR_2022_DIR = /opt/intel/oneapi/inspector/2022.0.0
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# environment
 GDK_BACKEND = x11
 # environment
 LC_PAPER = es_ES.UTF-8
 # environment
 I_MPI_ROOT = /opt/intel/oneapi/mpi/2021.5.1
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 # environment
 MAKELEVEL := 0
 # environment
@@ -336,13 +334,13 @@ LC_ADDRESS = es_ES.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 15202
+VSCODE_PID = 9084
 # environment
 ONEAPI_ROOT = /opt/intel/oneapi
 # environment
 KDE_SESSION_UID = 1000
 # variable set hash-table stats:
-# Load=164/1024=16%, Rehash=0, Collisions=21/186=11%
+# Load=163/1024=16%, Rehash=0, Collisions=21/185=11%
 
 # Pattern-specific Variable Values
 
@@ -408,6 +406,6 @@ GNUmakefile:
 # strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Thu Feb 16 14:15:30 2023
+# Finished Make data base on Thu Feb 16 14:56:37 2023
 
  
