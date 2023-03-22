@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Feb 16 14:56:37 2023
+# Make data base, printed on Wed Mar 22 13:16:09 2023
 
 # Variables
 
@@ -22,6 +24,8 @@ DESKTOP_SESSION = plasma
 SETVARS_COMPLETED = 1
 # environment
 XDG_SESSION_CLASS = user
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # environment
 VT_ROOT = /opt/intel/oneapi/itac/2021.5.0
 # environment
@@ -51,13 +55,13 @@ CURDIR := /home/tariq/GIT/tariqridwan.github.io
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/119
+SNAP_DATA = /var/snap/code/122
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 INTEL_LICENSE_FILE = /opt/intel/licenses:/home/tariq/intel/licenses
 # environment
-_ = /snap/code/119/usr/share/code/code
+_ = /snap/code/122/usr/share/code/code
 # environment
 QT_AUTO_SCREEN_SCALE_FACTOR = 0
 # environment
@@ -99,15 +103,15 @@ LC_NAME = es_ES.UTF-8
 # environment
 VT_SLIB_DIR = /opt/intel/oneapi/itac/2021.5.0/slib
 # environment
-VSCODE_CWD = /home/tariq
+VSCODE_CWD = /home/tariq/GIT/tariqridwan.github.io
 # environment
 OCL_ICD_FILENAMES = libintelocl_emu.so:libalteracl.so:/opt/intel/oneapi/compiler/2022.0.2/linux/lib/x64/libintelocl.so
 # environment
 PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
 # environment
-XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session2
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/119/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/122/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -117,7 +121,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 XCURSOR_THEME = WhiteSur-cursors
 # environment
-SESSION_MANAGER = local/tariq-pc:@/tmp/.ICE-unix/1780,unix/tariq-pc:/tmp/.ICE-unix/1780
+SESSION_MANAGER = local/tariq-pc:@/tmp/.ICE-unix/1874,unix/tariq-pc:/tmp/.ICE-unix/1874
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -125,7 +129,7 @@ GDK_PIXBUF_MODULE_FILE = /home/tariq/snap/code/common/.cache/gdk-pixbuf-loaders.
 # environment
 LIBRARY_PATH = /opt/intel/oneapi/tbb/2021.5.1/env/../lib/intel64/gcc4.8:/opt/intel/oneapi/mpi/2021.5.1//libfabric/lib:/opt/intel/oneapi/mpi/2021.5.1//lib/release:/opt/intel/oneapi/mpi/2021.5.1//lib:/opt/intel/oneapi/mkl/2022.0.2/lib/intel64:/opt/intel/oneapi/ipp/2021.5.2/lib/intel64:/opt/intel/oneapi/compiler/2022.0.2/linux/compiler/lib/intel64_lin:/opt/intel/oneapi/compiler/2022.0.2/linux/lib:/opt/intel/oneapi/ccl/2021.5.1/lib/cpu_gpu_dpcpp
 # environment
-SNAP = /snap/code/119
+SNAP = /snap/code/122
 # environment
 INTEL_PYTHONHOME = /opt/intel/oneapi/debugger/2021.5.0/dep
 # environment
@@ -133,11 +137,11 @@ CPATH = /opt/intel/oneapi/tbb/2021.5.1/env/../include:/opt/intel/oneapi/mpi/2021
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-SNAP_VERSION = 441438ab
+SNAP_VERSION = ee2b180d
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/119/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/122/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -145,7 +149,7 @@ CMAKE_PREFIX_PATH = /opt/intel/oneapi/tbb/2021.5.1/env/..:/opt/intel/oneapi/comp
 # environment
 XDG_SESSION_DESKTOP = KDE
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-iNlmxMSYLvkD/agent.1630
+SSH_AUTH_SOCK = /tmp/ssh-pq03BrDKKxeU/agent.1704
 # automatic
 %F = $(notdir $%)
 # environment
@@ -163,7 +167,7 @@ KDE_SESSION_VERSION = 5
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 1706
+SSH_AGENT_PID = 1782
 # environment
 PKG_CONFIG_PATH = /opt/intel/oneapi/vtune/2022.0.0/include/pkgconfig/lib64:/opt/intel/oneapi/tbb/2021.5.1/env/../lib/pkgconfig:/opt/intel/oneapi/mpi/2021.5.1/lib/pkgconfig:/opt/intel/oneapi/mkl/2022.0.2/lib/pkgconfig:/opt/intel/oneapi/inspector/2022.0.0/include/pkgconfig/lib64:/opt/intel/oneapi/compiler/2022.0.2/lib/pkgconfig:/opt/intel/oneapi/ccl/2021.5.1/lib/pkgconfig:/opt/intel/oneapi/advisor/2022.0.0/include/pkgconfig/lib64:
 # environment
@@ -187,7 +191,7 @@ VT_MPI = impi4
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/tariq/.config/Code/CachedData/441438abd1ac652551dbe4d408dfcec8a499b8bf
+VSCODE_CODE_CACHE_PATH = /home/tariq/.config/Code/CachedData/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884
 # environment
 IPP_TARGET_ARCH = intel64
 # environment
@@ -227,7 +231,7 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/tariq/snap/code/119
+SNAP_USER_DATA = /home/tariq/snap/code/122
 # environment
 SHLVL = 0
 # environment
@@ -235,7 +239,7 @@ XDG_SESSION_ID = 3
 # environment
 USER = tariq
 # environment
-SNAP_REVISION = 119
+SNAP_REVISION = 122
 # environment
 MKLROOT = /opt/intel/oneapi/mkl/2022.0.2
 # environment
@@ -261,7 +265,7 @@ MAKE_COMMAND := make
 # environment
 XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-c929f1a7-1.75.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-c929f1a7-1.76-main.sock
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
@@ -284,12 +288,10 @@ GDK_BACKEND = x11
 LC_PAPER = es_ES.UTF-8
 # environment
 I_MPI_ROOT = /opt/intel/oneapi/mpi/2021.5.1
- 
-make: *** No rule to make target 'all'.  Stop.
-
 # environment
 MAKELEVEL := 0
 # environment
+ 
 QT_ACCESSIBILITY = 1
 # environment
 IPPROOT = /opt/intel/oneapi/ipp/2021.5.2
@@ -334,13 +336,13 @@ LC_ADDRESS = es_ES.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 9084
+VSCODE_PID = 12018
 # environment
 ONEAPI_ROOT = /opt/intel/oneapi
 # environment
 KDE_SESSION_UID = 1000
 # variable set hash-table stats:
-# Load=163/1024=16%, Rehash=0, Collisions=21/185=11%
+# Load=164/1024=16%, Rehash=0, Collisions=21/186=11%
 
 # Pattern-specific Variable Values
 
@@ -406,6 +408,6 @@ GNUmakefile:
 # strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Thu Feb 16 14:56:37 2023
+# Finished Make data base on Wed Mar 22 13:16:09 2023
 
  
